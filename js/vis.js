@@ -1,8 +1,8 @@
 var nodes = [];
 var nNodes = [];
 
-var width = 500,
-    height = 600;
+var width = 400,
+    height = 400;
 
 d3.json("data/data.json").then(function(links) {
     links.forEach(function(link) {
